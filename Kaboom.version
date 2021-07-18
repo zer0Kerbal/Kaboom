@@ -1,7 +1,7 @@
 {
     "NAME"           : "Kaboom",
     "URL"            : "https://raw.githubusercontent.com/zer0Kerbal/Kaboom/master/Kaboom.version",
-    "DOWNLOAD"       : "https://github.com/zer0Kerbal/Kaboom/releases/latest",
+    "DOWNLOAD"       : "https://www.curseforge.com/kerbal/ksp-mods/kabooom/files/3392488",
     "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/Kaboom/master/Changelog.cfg",
     "GITHUB" :
     {
@@ -12,15 +12,15 @@
     "VERSION" :
     {
         "MAJOR" : 1,
-        "MINOR" : 2,
+        "MINOR" : 3,
         "PATCH" : 0,
         "BUILD" : 0
     },
     "KSP_VERSION" :
     {
         "MAJOR" : 1,
-        "MINOR" : 7,
-        "PATCH" : 3
+        "MINOR" : 12,
+        "PATCH" : 1
     },
     "KSP_VERSION_MIN" :
     {
@@ -31,7 +31,7 @@
     "KSP_VERSION_MAX" :
     {
         "MAJOR" : 1,
-        "MINOR" : 7,
+        "MINOR" : 12,
         "PATCH" : 9999
     },
     "INSTALL_LOC" :

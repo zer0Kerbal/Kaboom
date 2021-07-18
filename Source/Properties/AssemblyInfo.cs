@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Kaboom")]
-[assembly: AssemblyDescription("Mod that allows the destruction of individual parts for KSP")]
+[assembly: AssemblyDescription("Kerbal Space Program addon that allows the destruction of individual parts")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("zer0Kerbal")]
+[assembly: AssemblyCompany("rushnash37, zer0Kerbal")]
 [assembly: AssemblyProduct("Kaboom")]
-[assembly: AssemblyCopyright("GPLv2 2020")]
+[assembly: AssemblyCopyright("Copyright © 2020 All Rights Reserved")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

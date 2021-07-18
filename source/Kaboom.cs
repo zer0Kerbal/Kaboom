@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
-
 namespace Kaboom
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ModuleKaboom : PartModule
     {
-        [KSPField(isPersistant = true, guiActiveEditor = true, guiActive = true, guiName = "Kaboom delay", 
+        [KSPField(isPersistant = true, guiActiveEditor = true, guiActive = true, guiName = "Kaboom delay",
             groupDisplayName = "<color=red><b>Switch Safety Cover</b></color>", groupName = "Kaboom", groupStartCollapsed = true,
-            guiUnits = "Seconds"), 
+            guiUnits = "Seconds"),
             UI_FloatRange(minValue = 0f, maxValue = 30f, stepIncrement = 1f)]
+
         public float delay = 0;
 
         [KSPField(isPersistant = true)]
@@ -34,9 +37,7 @@ namespace Kaboom
 
         [KSPAction("Kaboom!")]
         public void KaboomAction(KSPActionParam param)
-        {
-            KaboomIt();
-        }
+=> KaboomIt();
 
         private void KaboomIt()
         {
